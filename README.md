@@ -1,10 +1,5 @@
 # STM32F411_DistanceSensor
 STM32F411 Nucleo project using an ultrasonic sensor to measure distance, displayed in centimeters on a 2x16 LCD. The LCD is directly interfaced without additional modules. All project files, including source code and setup details, are provided for easy replication and understanding.
- 
-This project leverages the STM32F411 Nucleo board to create a simple yet effective distance measurement system using an ultrasonic sensor. The measured distance is displayed in real-time on a 2x16 character LCD screen, with the values shown in centimeters.
-
-Key features of this project include:
-
 
 This project serves as an excellent starting point for those looking to explore embedded systems with STM32 microcontrollers, offering hands-on experience with sensor integration and display interfacing.
 
