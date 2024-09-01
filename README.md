@@ -36,11 +36,13 @@ This project serves as an excellent starting point for those looking to explore 
               - GND (on microcontroller) : Vss , V0 , RW , K (on LCD) , GND(on Ultrasonic)
               - 3V3 : A
 7. Clock Configuration:
+   
             - System Clock Source: HSE (High-Speed External)
             - SYSCLK (System Clock Frequency): 100 MHz
             - APB1 (Low-Speed Peripheral Clock): 50 MHz
             - APB2 (High-Speed Peripheral Clock): 100 MHz
-8. Peripheral Configuration:
+9. Peripheral Configuration:
+    
             GPIO:
             - Mode: Output for LCD control and Trigger Pin
             - Mode: Input for Echo Pin
@@ -48,7 +50,8 @@ This project serves as an excellent starting point for those looking to explore 
             - Tim2 : Clock source set to "Internal Clock"
             I2C : set to ON (PB8 as SCL and PB7 as SDA)
 
-9. Testing and Debugging
+11. Testing and Debugging
+    
             Initial Power-On Test:
             - Verify that the LCD initializes correctly and displays a welcome message.
             - Sensor Functionality:
